@@ -1,6 +1,6 @@
 {
   "name": "docker-couchpotato",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A couch potato docker image based on debian",
   "scripts": {
     "build": "scripts/build.sh",
