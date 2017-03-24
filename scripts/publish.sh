@@ -13,10 +13,6 @@ main() {
   V=$(get_version)
   I=$(get_docker_image_name)
 
-  echo "$I version $V"
-
-  exit 0
-
   describe=$(git describe --dirty)
 
   if check_version $describe; then
